@@ -1,0 +1,349 @@
+for i,v in pairs(game.Workspace:GetDescendants()) do
+		if v.Name == "AntiFallPart" then
+			v:Destroy()
+		end
+	end
+	wait(1.3)
+	game.Workspace.AntiFallPart.Size = Vector3.new(2048, 1, 2048)
+end)
+
+Skywars.skyfu.MouseButton1Down:connect(function()
+	for i,v in pairs(game.Workspace:GetDescendants()) do
+		if v.Name == "Stair1" then
+			v:Destroy()
+		end
+	end
+	for i,v in pairs(game.Workspace:GetDescendants()) do
+		if v.Name == "Stair2" then
+			v:Destroy()
+		end
+	end
+	for i,v in pairs(game.Workspace:GetDescendants()) do
+		if v.Name == "Stair3" then
+			v:Destroy()
+		end
+	end
+	for i,v in pairs(game.Workspace:GetDescendants()) do
+		if v.Name == "Stair4" then
+			v:Destroy()
+		end
+	end
+	for i,v in pairs(game.Workspace:GetDescendants()) do
+		if v.Name == "Stair5" then
+			v:Destroy()
+		end
+	end
+	for i,v in pairs(game.Workspace:GetDescendants()) do
+		if v.Name == "Stair6" then
+			v:Destroy()
+		end
+	end
+	for i,v in pairs(game.Workspace:GetDescendants()) do
+		if v.Name == "Stair7" then
+			v:Destroy()
+		end
+	end
+	for i,v in pairs(game.Workspace:GetDescendants()) do
+		if v.Name == "Stair8" then
+			v:Destroy()
+		end
+	end
+	for i,v in pairs(game.Workspace:GetDescendants()) do
+		if v.Name == "Stair9" then
+			v:Destroy()
+		end
+	end
+	for i,v in pairs(game.Workspace:GetDescendants()) do
+		if v.Name == "Stair10" then
+			v:Destroy()
+		end
+	end
+	for i,v in pairs(game.Workspace:GetDescendants()) do
+		if v.Name == "Stair11" then
+			v:Destroy()
+		end
+	end
+	for i,v in pairs(game.Workspace:GetDescendants()) do
+		if v.Name == "Stair12" then
+			v:Destroy()
+		end
+	end
+	for i,v in pairs(game.Workspace:GetDescendants()) do
+		if v.Name == "Stair13" then
+			v:Destroy()
+		end
+	end
+	for i,v in pairs(game.Workspace:GetDescendants()) do
+		if v.Name == "Stair14" then
+			v:Destroy()
+		end
+	end
+	for i,v in pairs(game.Workspace:GetDescendants()) do
+		if v.Name == "Stair15" then
+			v:Destroy()
+		end
+	end
+	for i,v in pairs(game.Workspace:GetDescendants()) do
+		if v.Name == "Stair16" then
+			v:Destroy()
+		end
+	end
+	for i,v in pairs(game.Workspace:GetDescendants()) do
+		if v.Name == "Stair17" then
+			v:Destroy()
+		end
+	end
+	for i,v in pairs(game.Workspace:GetDescendants()) do
+		if v.Name == "Stair18" then
+			v:Destroy()
+		end
+	end
+	for i,v in pairs(game.Workspace:GetDescendants()) do
+		if v.Name == "Stair19" then
+			v:Destroy()
+		end
+	end
+	for i,v in pairs(game.Workspace:GetDescendants()) do
+		if v.Name == "Stair20" then
+			v:Destroy()
+		end
+	end
+	for i,v in pairs(game.Workspace:GetDescendants()) do
+		if v.Name == "Stair21" then
+			v:Destroy()
+		end
+	end
+	for i,v in pairs(game.Workspace:GetDescendants()) do
+		if v.Name == "Stair22" then
+			v:Destroy()
+		end
+	end
+	for i,v in pairs(game.Workspace:GetDescendants()) do
+		if v.Name == "Stair23" then
+			v:Destroy()
+		end
+	end
+	for i,v in pairs(game.Workspace:GetDescendants()) do
+		if v.Name == "Stair24" then
+			v:Destroy()
+		end
+	end
+	wait(1.5)
+
+
+	local b = Instance.new("Part")
+	b.Parent = game.Workspace
+	b.Position = Vector3.new(116.075, 153.975, -77.968)
+	b.Size = Vector3.new(1, 24, 13)
+	b.Anchored = true
+	b.CanCollide = true
+	b.Name = "Stair2"
+	b.Rotation = Vector3.new(-45, 90, 0)
+
+	local c = Instance.new("Part")
+	c.Parent = game.Workspace
+	c.Position = Vector3.new(116.075, 153.975, -13.968)
+	c.Size = Vector3.new(1, 24, 13)
+	c.Anchored = true
+	c.CanCollide = true
+	c.Name = "Stair3"
+	c.Rotation = Vector3.new(45, 90, 0)
+
+	local d = Instance.new("Part")
+	d.Parent = game.Workspace
+	d.Position = Vector3.new(86.0749, 153.975, 0.0319977)
+	d.Size = Vector3.new(1, 24, 13)
+	d.Anchored = true
+	d.CanCollide = true
+	d.Name = "Stair4"
+	d.Rotation = Vector3.new(0, 0, -45)
+
+	local e = Instance.new("Part")
+	e.Parent = game.Workspace
+	e.Position = Vector3.new(86.0749, 153.975, -107.968)
+	e.Size = Vector3.new(1, 24, 13)
+	e.Anchored = true
+	e.CanCollide = true
+	e.Name = "Stair5"
+	e.Rotation = Vector3.new(0, 0, -45)
+
+	local f = Instance.new("Part")
+	f.Parent = game.Workspace
+	f.Position = Vector3.new(116.075, 153.975, 30.032)
+	f.Size = Vector3.new(1, 24, 13)
+	f.Anchored = true
+	f.CanCollide = true
+	f.Name = "Stair6"
+	f.Rotation = Vector3.new(-45, -90, 0)
+
+	local a = Instance.new("Part")
+	a.Parent = game.Workspace
+	a.Position = Vector3.new(116.075, 153.975, 94.032)
+	a.Size = Vector3.new(1, 24, 13)
+	a.Anchored = true
+	a.CanCollide = true
+	a.Name = "Stair1"
+	a.Rotation = Vector3.new(45, 90, 0)
+
+	local g = Instance.new("Part")
+	g.Parent = game.Workspace
+	g.Position = Vector3.new(86.0749, 153.975, 124.032)
+	g.Size = Vector3.new(1, 24, 13)
+	g.Anchored = true
+	g.CanCollide = true
+	g.Name = "Stair7"
+	g.Rotation = Vector3.new(0, 0, -45)
+
+	local h = Instance.new("Part")
+	h.Parent = game.Workspace
+	h.Position = Vector3.new(22.0749, 153.975, 124.032)
+	h.Size = Vector3.new(1, 24, 13)
+	h.Anchored = true
+	h.CanCollide = true
+	h.Name = "Stair8"
+	h.Rotation = Vector3.new(180, 0, 135)
+
+	local i = Instance.new("Part")
+	i.Parent = game.Workspace
+	i.Position = Vector3.new(8.075, 153.975, 94.032)
+	i.Size = Vector3.new(1, 24, 13)
+	i.Anchored = true
+	i.CanCollide = true
+	i.Name = "Stair9"
+	i.Rotation = Vector3.new(45, 90, 0)
+
+	local j = Instance.new("Part")
+	j.Parent = game.Workspace
+	j.Position = Vector3.new(-21.9251, 153.975, 124.032)
+	j.Size = Vector3.new(1, 24, 13)
+	j.Anchored = true
+	j.CanCollide = true
+	j.Name = "Stair10"
+	j.Rotation = Vector3.new(0, 0, -45)
+
+	local k = Instance.new("Part")
+	k.Parent = game.Workspace
+	k.Position = Vector3.new(-85.9251, 153.975, 124.032)
+	k.Size = Vector3.new(1, 24, 13)
+	k.Anchored = true
+	k.CanCollide = true
+	k.Name = "Stair11"
+	k.Rotation = Vector3.new(180, 0, 135)
+
+	local l = Instance.new("Part")
+	l.Parent = game.Workspace
+	l.Position = Vector3.new(-115.925, 153.975, 94.032)
+	l.Size = Vector3.new(1, 24, 13)
+	l.Anchored = true
+	l.CanCollide = true
+	l.Name = "Stair12"
+	l.Rotation = Vector3.new(45, -90, 0)
+
+	local m = Instance.new("Part")
+	m.Parent = game.Workspace
+	m.Position = Vector3.new(-115.925, 153.975, 30.032)
+	m.Size = Vector3.new(1, 24, 13)
+	m.Anchored = true
+	m.CanCollide = true
+	m.Name = "Stair13"
+	m.Rotation = Vector3.new(-45, 90, 0)
+
+	local n = Instance.new("Part")
+	n.Parent = game.Workspace
+	n.Position = Vector3.new(-85.9251, 153.975, 16.032)
+	n.Size = Vector3.new(1, 24, 13)
+	n.Anchored = true
+	n.CanCollide = true
+	n.Name = "Stair14"
+	n.Rotation = Vector3.new(180, 0, 135)
+
+	local aw = Instance.new("Part")
+	aw.Parent = game.Workspace
+	aw.Position = Vector3.new(-115.925, 153.975, -14.968)
+	aw.Size = Vector3.new(1, 24, 13)
+	aw.Anchored = true
+	aw.CanCollide = true
+	aw.Name = "Stair15"
+	aw.Rotation = Vector3.new(45, -90, 0)
+
+	local qwe = Instance.new("Part")
+	qwe.Parent = game.Workspace
+	qwe.Position = Vector3.new(-115.925, 153.975, -77.968)
+	qwe.Size = Vector3.new(1, 24, 13)
+	qwe.Anchored = true
+	qwe.CanCollide = true
+	qwe.Name = "Stair16"
+	qwe.Rotation = Vector3.new(-45, 90, 0)
+
+	local ew = Instance.new("Part")
+	ew.Parent = game.Workspace
+	ew.Position = Vector3.new(-85.9251, 153.975, -107.968)
+	ew.Size = Vector3.new(1, 24, 13)
+	ew.Anchored = true
+	ew.CanCollide = true
+	ew.Name = "Stair17"
+	ew.Rotation = Vector3.new(180, 0, 135)
+
+	local we = Instance.new("Part")
+	we.Parent = game.Workspace
+	we.Position = Vector3.new(-21.9251, 153.975, -107.968)
+	we.Size = Vector3.new(1, 24, 13)
+	we.Anchored = true
+	we.CanCollide = true
+	we.Name = "Stair18"
+	we.Rotation = Vector3.new(0, 0, -45)
+
+	local be = Instance.new("Part")
+	be.Parent = game.Workspace
+	be.Position = Vector3.new(-7.925, 153.975, -77.968)
+	be.Size = Vector3.new(1, 24, 13)
+	be.Anchored = true
+	be.CanCollide = true
+	be.Name = "Stair19"
+	be.Rotation = Vector3.new(-45, 90, 0)
+
+	local sj = Instance.new("Part")
+	sj.Parent = game.Workspace
+	sj.Position = Vector3.new(22.0749, 153.975, -107.968)
+	sj.Size = Vector3.new(1, 24, 13)
+	sj.Anchored = true
+	sj.CanCollide = true
+	sj.Name = "Stair20"
+	sj.Rotation = Vector3.new(180, 0, 135)
+
+	local q = Instance.new("Part")
+	q.Parent = game.Workspace
+	q.Position = Vector3.new(0.000262141, 154.381, -27.2855)
+	q.Size = Vector3.new(1, 24, 36)
+	q.Anchored = true
+	q.CanCollide = true
+	q.Name = "Stair22"
+	q.Rotation = Vector3.new(45, 90, 0)
+
+	local w = Instance.new("Part")
+	w.Parent = game.Workspace
+	w.Position = Vector3.new(26, 154, -0.5)
+	w.Size = Vector3.new(1, 24, 36)
+	w.Anchored = true
+	w.CanCollide = true
+	w.Name = "Stair23"
+	w.Rotation = Vector3.new(0, 0, 45)
+
+	local r = Instance.new("Part")
+	r.Parent = game.Workspace
+	r.Position = Vector3.new(0.000260472, 154.381, 25.7145)
+	r.Size = Vector3.new(1, 24, 36)
+	r.Anchored = true
+	r.CanCollide = true
+	r.Name = "Stair23"
+	r.Rotation = Vector3.new(-45, -90, 0)
+
+	local p = Instance.new("Part")
+	p.Parent = game.Workspace
+	p.Position = Vector3.new(-26, 154, -0.5)
+	p.Size = Vector3.new(1, 24, 36)
+	p.Anchored = true
+	p.CanCollide = true
+	p.Name = "Stair24"
+	p.Rotation = Vector3.new(-180, 0, -135)
+end)
